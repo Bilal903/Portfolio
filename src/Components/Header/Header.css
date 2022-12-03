@@ -1,0 +1,41 @@
+header {
+  height: 100px;
+}
+header.sticky {
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+  z-index: 10;
+  transition: 0.3s;
+  position: sticky;
+  top: 0;
+  background:  rgb(180, 97, 180);
+  height: 70px;
+}
+header .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header-inner .logo {
+  font-size: 30px;
+  line-height: 40px;
+  color: white; 
+  font-weight: 900;
+}
+.header-inner .link {
+  margin-right: 30px;
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.header-inner .link:hover {
+  color: rgb(12, 1, 12);
+}
+header .menu {
+  display: none;
+}
+header .mobile-links {
+  display: none;
+}
